@@ -2646,11 +2646,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\repos\\Udemy\\18_Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
+      "projectUniqueName": "C:\\Projects\\Udemy\\Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
       "projectName": "SehirRehberi.API",
-      "projectPath": "C:\\repos\\Udemy\\18_Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
+      "projectPath": "C:\\Projects\\Udemy\\Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
       "packagesPath": "C:\\Users\\ithinka\\.nuget\\packages\\",
-      "outputPath": "C:\\repos\\Udemy\\18_Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\obj\\",
+      "outputPath": "C:\\Projects\\Udemy\\Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ithinka\\AppData\\Roaming\\NuGet\\NuGet.Config",

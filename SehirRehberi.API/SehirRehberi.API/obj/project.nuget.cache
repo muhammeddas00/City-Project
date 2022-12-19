@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pwIKGRFTT0NdlcNtxd3fAPGZSklcX2/bLiOf3P9j8zhh4b8fEI/OGap+peUSQ363jJp4+Xi4GDiVNfr/pUa8zA==",
+  "dgSpecHash": "DNFJRUlbTCbjtapUEHF9RDSjwJkurggzwJ7PPo2giqS5IDj8inTzNDw8KkL8TUA1KrK1BroU8R6/ecf0a1g1uw==",
   "success": true,
-  "projectFilePath": "C:\\repos\\Udemy\\18_Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
+  "projectFilePath": "C:\\Projects\\Udemy\\Isınma_Projesi\\SehirRehberi.API\\SehirRehberi.API\\SehirRehberi.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ithinka\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\ithinka\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
