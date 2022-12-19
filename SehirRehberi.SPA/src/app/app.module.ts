@@ -10,6 +10,10 @@ import { CityComponent } from './city/city.component';
 import { CityDetailComponent } from './city/city-detail/city-detail.component';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CityAddComponent } from './city/city-add/city-add.component';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms'
+import { AlertifyService } from './services/alertify.service';
+
 
 @NgModule({
   declarations: [				
@@ -17,19 +21,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       ValueComponent,
       NavComponent,
       CityComponent,
-      CityDetailComponent
+      CityDetailComponent,
+      CityAddComponent
    ],
   imports: [
     BrowserModule,
     HttpClientModule,
     RouterModule.forRoot(appRoutes),
     NgxGalleryModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    
     
    
 
   ],
-  providers: [],
+  providers: [AlertifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
