@@ -49,6 +49,7 @@ saveToken(token:any){localStorage.setItem(this.TOKEN_KEY,token)}
 
 logOut(){
   localStorage.removeItem(this.TOKEN_KEY)
+  this.alertifyService.error("Sistemden çıkış Yapıldı");
 }
 
 loggedIn(){

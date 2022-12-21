@@ -13,16 +13,18 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CityAddComponent } from './city/city-add/city-add.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms'
 import { AlertifyService } from './services/alertify.service';
+import { RegisterComponent } from './register/register.component';
 
 
 @NgModule({
-  declarations: [				
+  declarations: [					
     AppComponent,
       ValueComponent,
       NavComponent,
       CityComponent,
       CityDetailComponent,
-      CityAddComponent
+      CityAddComponent,
+      RegisterComponent
    ],
   imports: [
     BrowserModule,
