@@ -14,17 +14,20 @@ import { CityAddComponent } from './city/city-add/city-add.component';
 import {FormsModule,ReactiveFormsModule} from '@angular/forms'
 import { AlertifyService } from './services/alertify.service';
 import { RegisterComponent } from './register/register.component';
-
+// import { NgxEditorModule } from 'ngx-editor';
+import { PhotoComponent } from './photo/photo.component';
+import {FileUploadModule} from 'ng2-file-upload'
 
 @NgModule({
-  declarations: [					
+  declarations: [						
     AppComponent,
       ValueComponent,
       NavComponent,
       CityComponent,
       CityDetailComponent,
       CityAddComponent,
-      RegisterComponent
+      RegisterComponent,
+      PhotoComponent
    ],
   imports: [
     BrowserModule,
@@ -34,6 +37,8 @@ import { RegisterComponent } from './register/register.component';
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
+    // NgxEditorModule,
+    FileUploadModule
     
     
    
@@ -43,3 +48,4 @@ import { RegisterComponent } from './register/register.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+

@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -33,9 +34,9 @@ namespace SehirRehberi.API.Controllers
 
             _cloudinary = new Cloudinary(account);
         }
-
+        
         [HttpPost]
-        public IActionResult AddPhotoForCity(int cityId, [FromBody]PhotoForCreationDto photoForCreationDto)
+        public IActionResult AddPhotoForCity(int cityId, [FromForm]PhotoForCreationDto photoForCreationDto)
         {
             var city = _appRepository.GetCityById(cityId);
             if (city == null)
